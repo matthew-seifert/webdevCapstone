@@ -9,6 +9,10 @@ header {
     height: 4rem;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    top: 0;
 }
 
 #logo {
@@ -45,4 +49,10 @@ header {
 
 #links p {
     margin: 0 0.5rem;
+}
+
+
+#main {
+    position: relative;
+    top: 4rem;
 }
